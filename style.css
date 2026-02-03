@@ -111,3 +111,19 @@ button:active {
     transform: translateY(0);
   }
 }
+.page {
+    padding-top: 50px; /* Moves content down so the first line is visible */
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Allows scrolling if the note is long */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.love-note {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
